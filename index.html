@@ -1,0 +1,78 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="logo">MyPortfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Your Name Profile Picture" class="hero-img"> 
+            <h1>Hi, I'm <span class="highlight">Peter Njenga </span></h1>
+            <p>A passionate Front-End Developer crafting beautiful digital experiences.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->  
+</section>
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="web.jpg" alt="Project One Preview" class="project-img">
+                <h3>Project One</h3>
+                <p>A web application built using HTML, CSS, and JavaScript.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card">
+                <img src="e-commerce.jpg" alt="Project Two Preview" class="project-img">
+                <h3>Project Two</h3>
+                <p>An e-commerce landing page optimized for mobile devices.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+            <div class="project-card">
+                <img src="dynamic.jpg" alt="Project Three Preview" class="project-img">
+                <h3>Project Three</h3>
+                <p>A dynamic dashboard featuring live interactive data charts.</p>
+                <a href="#" class="project-link">View Project →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
